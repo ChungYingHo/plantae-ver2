@@ -33,15 +33,12 @@ const Nav = styled.nav`
     }
 `
 const Img = styled.img`
-    width: 10rem;
+    height: 3.5rem;
     margin: 1rem 0;
 
     @media (max-width: 900px){
         grid-column: 2/3;
         margin: 1rem auto;
-    }
-    @media (max-width: 900px){
-        width: 7rem;
     }
 `
 const Ul = styled.ul`
