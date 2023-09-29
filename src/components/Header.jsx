@@ -5,7 +5,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 
 // *styled component
 const Container = styled.div`
-    width: 100vw;
+    width: 100%;
     margin: 0;
     background-color: rgba(255, 255, 255, 0.9);
     position: sticky;
@@ -17,10 +17,6 @@ const Container = styled.div`
     ${props => !props.$isNavVisible && `
         transform: translateY(-100%);
     `}
-
-    @media (max-width: 900px){
-        outline: black solid 2px;
-    }
 `
 const Nav = styled.nav`
     width: 70%;
@@ -30,7 +26,6 @@ const Nav = styled.nav`
     align-items: center;
 
     @media (max-width: 900px){
-        outline: #9b9b9b solid 2px;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
