@@ -24,7 +24,6 @@ const fadeIn = keyframes`
 `
 
 const Container = styled.div`
-    outline: darkgray solid 2px;
     width: 70%;
     height: 40vh;
     margin: 3rem auto;
