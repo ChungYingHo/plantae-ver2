@@ -38,6 +38,9 @@ const Banner = styled.img`
   width: 100%;
   height: 55vh;
   object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateY(${props => (props.$loaded ? '0' : '-10px')});
+  opacity: ${props => (props.$loaded ? '1' : '0')};
 
   @media (max-width: 900px){
       height: 35vh;

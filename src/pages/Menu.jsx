@@ -2,6 +2,7 @@ import styled from "styled-components";
 import * as styles from '../common/common.styled'
 import ProductCard from "../components/ProductCard";
 import { productList } from "../data/product";
+import useImgFadeIn from "../hook/ImgFadeIn";
 
 const Container = styled(styles.Container)`
     display: flex;
@@ -16,9 +17,11 @@ const Container = styled(styles.Container)`
 `
 
 export default function Menu(){
+    const imageSrc = require('../assets/menupage/banner.JPG')
+    const isBannerLoaded = useImgFadeIn(imageSrc)
     return(
         <>
-            <styles.Banner src={require('../assets/menupage/banner.JPG')} alt="banner"/>
+            <styles.Banner src={require('../assets/menupage/banner.JPG')} alt="banner" $loaded={isBannerLoaded}/>
             <Container>
                 {productList.map(data =>{
                     return(

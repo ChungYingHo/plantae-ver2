@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import * as styles from '../common/common.styled'
+import useImgFadeIn from "../hook/ImgFadeIn";
 
 const Container = styled(styles.Container)`
     height: fit-content;
@@ -52,9 +53,11 @@ const Paragraph = styled.section`
 `
 
 export default function Story(){
+    const imageSrc = require('../assets/storypage/banner.JPG')
+    const isBannerLoaded = useImgFadeIn(imageSrc)
     return(
         <>
-            <styles.Banner src={require('../assets/storypage/banner.JPG')} alt="banner"/>
+            <styles.Banner src={require('../assets/storypage/banner.JPG')} alt="banner" $loaded={isBannerLoaded}/>
             <Container>
                 <Paragraph>
                     <h3>關於名字</h3>
