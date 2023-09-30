@@ -5,14 +5,15 @@ import Main from './pages/Main';
 import Story from './pages/Story';
 import Menu from './pages/Menu';
 
+const basename = process.env.PUBLIC_URL;
+
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
           <Routes>
               <Route element={<MainLayout />}>
                   <Route path='/' element={<Navigate to='/home'/>}></Route>
-                  <Route path='*' element={<Main/>}></Route>
                   <Route path='/home' element={<Main/>}></Route>
                   <Route path='/story' element={<Story/>}></Route>
                   <Route path='/menu' element={<Menu/>}></Route>
