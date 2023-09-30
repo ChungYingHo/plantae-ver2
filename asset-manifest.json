@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38266162.css",
+    "main.js": "/static/js/main.5cf3247a.js",
+    "static/js/787.28ce0323.chunk.js": "/static/js/787.28ce0323.chunk.js",
+    "static/media/banner.JPG": "/static/media/banner.15bc7a168cf952250fb6.JPG",
+    "static/media/product2.JPG": "/static/media/product2.b6c90f8a39bb2b70b9fc.JPG",
+    "static/media/bg.jpg": "/static/media/bg.0969b32424819539bc51.jpg",
+    "static/media/mango.jpg": "/static/media/mango.985c4384787d543e2680.jpg",
+    "static/media/product.JPG": "/static/media/product.d20ffe0f95f75af6a110.JPG",
+    "static/media/farm.jpg": "/static/media/farm.362e2b339bae637aa2a8.jpg",
+    "static/media/tree.jpg": "/static/media/tree.bfe24939fb7ba4a1ecf8.jpg",
+    "static/media/main-oryza.jpg": "/static/media/main-oryza.b0e1f8d21a01875cc131.jpg",
+    "static/media/tea3.jpg": "/static/media/tea3.c0d5db0aefb771c87984.jpg",
+    "static/media/wheat.jpg": "/static/media/wheat.3e9dfb83efd2881ec7c4.jpg",
+    "static/media/main-tea.jpg": "/static/media/main-tea.4cb225c32ded107797d0.jpg",
+    "static/media/pomelo.jpg": "/static/media/pomelo.4b6e58e5a530a0872c28.jpg",
+    "static/media/植宇宙_標準字 since2022.png": "/static/media/植宇宙_標準字 since2022.0b6efca50745c16d520d.png",
+    "static/media/植宇宙_logo-01.png": "/static/media/植宇宙_logo-01.6c94d347af8a45d2e6a5.png",
+    "static/media/instagram.png": "/static/media/instagram.2e4a2c2fbd094a14d1e8.png",
+    "static/media/email.png": "/static/media/email.00b77611c2b53e1aed4a.png",
+    "static/media/facebook.png": "/static/media/facebook.ec5c730cfe163b1e5ed8.png",
+    "index.html": "/index.html",
+    "main.38266162.css.map": "/static/css/main.38266162.css.map",
+    "main.5cf3247a.js.map": "/static/js/main.5cf3247a.js.map",
+    "787.28ce0323.chunk.js.map": "/static/js/787.28ce0323.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38266162.css",
+    "static/js/main.5cf3247a.js"
+  ]
+}
