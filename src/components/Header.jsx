@@ -139,10 +139,11 @@ export default function Header(){
         const handleScroll = () => {
         const currentScrollPos = window.scrollY;
         
-        if(currentScrollPos > prevScrollPos){
+        if(currentScrollPos > prevScrollPos && Math.round(currentScrollPos - prevScrollPos) > 20){
             setIsNavVisible(false)
             setIsUlHidden(true)
-        }else{
+            console.log(Math.round(currentScrollPos - prevScrollPos))
+        }else if(currentScrollPos < prevScrollPos){
             setIsNavVisible(true)
             setIsUlHidden(false)
             setHamburgerOpen(false)
