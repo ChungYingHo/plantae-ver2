@@ -13,7 +13,20 @@ const fonts = {
     ch: `'Noto Sans TC', sans-serif`
 }
 
+const Container = styled.div`
+    /* outline: darkgray solid 2px; */
+    width: 70%;
+    height: 40vh;
+    margin: 1.5rem auto 0.75rem;
+
+    @media (max-width: 900px){
+        width: 90%;
+        height: fit-content;
+    }
+`
+
 export {
     colors,
-    fonts
+    fonts,
+    Container
 }

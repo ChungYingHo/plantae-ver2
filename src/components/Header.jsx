@@ -7,7 +7,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 const Container = styled.div`
     width: 100%;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.6);
     position: sticky;
     top: 0;
     transition: transform 0.3s ease-in-out;
@@ -40,8 +40,12 @@ const Img = styled.img`
         grid-column: 2/3;
         margin: 1rem auto;
     }
+    @media (max-width: 500px){
+        height: 3rem;
+    }
 `
 const Ul = styled.ul`
+    margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
@@ -52,7 +56,7 @@ const Ul = styled.ul`
         left: 0;
         margin: 0;
         width: 100vw;
-        height: 150%;
+        height: fit-content;
         display: flex;
         flex-flow: column nowrap;
         transition: transform 0.3s ease-out;
