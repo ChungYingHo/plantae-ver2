@@ -13,15 +13,6 @@ const fonts = {
     ch: `'Noto Sans TC', sans-serif`
 }
 
-// animation
-const fadeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`
 
 const Container = styled.div`
     width: 70%;
@@ -54,6 +45,5 @@ export {
     colors,
     fonts,
     Container,
-    fadeIn,
     Banner
 }

@@ -37,7 +37,7 @@ const Text = styled(Card.Text)`
 export default function ProductCard({name_ch, name_en, img, des}){
     return(
         <StyledCard>
-            <Img variant="top" src={img} />
+            <Img variant="top" src={img}/>
             <Card.Body>
                 <Title>{name_ch} <span>{name_en}</span></Title>
                 <Text>{des}</Text>

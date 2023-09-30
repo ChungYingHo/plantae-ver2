@@ -32,14 +32,14 @@ function MyCarousel() {
   return (
     <Carousel fade>
       <Carousel.Item>
-        <Img src={require('../assets/mainpage/tree.jpg')} alt="tree" />
+        <Img src={require('../assets/mainpage/tree.jpg')} alt="tree"/>
         <Carousel.Caption>
           <H3>獻給您，大自然的贈禮</H3>
           <Paragraph>The gift of the nature, the gift for you</Paragraph>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Img src={require('../assets/mainpage/tea3.jpg')} alt="tea" />
+        <Img src={require('../assets/mainpage/tea3.jpg')} alt="tea"/>
         <Carousel.Caption>
           <H3>屬於台灣的味道</H3>
           <Paragraph>
@@ -48,7 +48,7 @@ function MyCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Img src={require('../assets/mainpage/farm.jpg')} alt="farm" />
+        <Img src={require('../assets/mainpage/farm.jpg')} alt="farm"/>
         <Carousel.Caption>
           <H3>分享台灣的美好</H3>
           <Paragraph>

@@ -142,7 +142,6 @@ export default function Header(){
         if(currentScrollPos > prevScrollPos && Math.round(currentScrollPos - prevScrollPos) > 20){
             setIsNavVisible(false)
             setIsUlHidden(true)
-            console.log(Math.round(currentScrollPos - prevScrollPos))
         }else if(currentScrollPos < prevScrollPos){
             setIsNavVisible(true)
             setIsUlHidden(false)
