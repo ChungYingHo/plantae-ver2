@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 
 const colors = {
     darkGreen: '#4f6036',
@@ -13,11 +13,21 @@ const fonts = {
     ch: `'Noto Sans TC', sans-serif`
 }
 
+// animation
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`
+
 const Container = styled.div`
     /* outline: darkgray solid 2px; */
     width: 70%;
     height: 40vh;
-    margin: 1.5rem auto 0.75rem;
+    margin: 3rem auto;
 
     @media (max-width: 900px){
         width: 90%;
@@ -28,5 +38,6 @@ const Container = styled.div`
 export {
     colors,
     fonts,
-    Container
+    Container,
+    fadeIn
 }
