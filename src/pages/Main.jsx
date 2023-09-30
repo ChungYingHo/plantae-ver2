@@ -4,7 +4,6 @@ import * as styles from '../common/common.styled'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import MyCarousel from "../components/Carousel"
-import Footer from "../components/Footer";
 import OryzaPic from '../assets/mainpage/main-oryza.jpg'
 import WheatPic from '../assets/mainpage/wheat.jpg'
 
@@ -189,7 +188,6 @@ export default function Main(){
                     <p>如同星空有著它的神秘、植物有它的奧妙，植宇宙現正致力於開發屬於我們獨特。我們將研發自家的手作商品，並且會定期分享各項覺得有趣的農業新知。</p>
                 </Paragraph>
             </ThirdContainer>
-            <Footer/>
         </>
     )
 }

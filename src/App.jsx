@@ -2,6 +2,7 @@ import './App.scss';
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import MainLayout from './layouts/MainLayout';
 import Main from './pages/Main';
+import Story from './pages/Story';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
                   <Route path='/' element={<Navigate to='/home'/>}></Route>
                   <Route path='*' element={<Main/>}></Route>
                   <Route path='/home' element={<Main/>}></Route>
+                  <Route path='/story' element={<Story/>}></Route>
               </Route>
           </Routes>
       </BrowserRouter>

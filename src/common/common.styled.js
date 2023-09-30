@@ -24,7 +24,7 @@ const fadeIn = keyframes`
 `
 
 const Container = styled.div`
-    /* outline: darkgray solid 2px; */
+    outline: darkgray solid 2px;
     width: 70%;
     height: 40vh;
     margin: 3rem auto;
@@ -35,9 +35,23 @@ const Container = styled.div`
     }
 `
 
+const Banner = styled.img`
+  width: 100%;
+  height: 55vh;
+  object-fit: cover;
+
+  @media (max-width: 900px){
+      height: 35vh;
+  }
+  @media (max-width: 500px){
+      height: 30vh;
+  }
+`
+
 export {
     colors,
     fonts,
     Container,
-    fadeIn
+    fadeIn,
+    Banner
 }
