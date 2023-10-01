@@ -1,5 +1,6 @@
 {
   "name": "plantae-website",
+  "homepage": "https://chungyingho.github.io/plantae-ver2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
