@@ -5,21 +5,17 @@ import * as styles from '../common/common.styled'
 
 const StyledCard = styled(Card)`
     width: 30%;
-    height: 70vh;
-
+    height: fit-content;
+    min-height: 70vh;
     @media (max-width: 900px){
         width: 80%;
-        height: fit-content;
+        min-height: fit-content;
         margin-bottom: 2rem;
     }
 `
 const Img = styled(Card.Img)`
-    height: 40%;
+    height: 28vh;
     object-fit: cover;
-
-    @media (max-width: 900px){
-        height: 28vh;
-    }
 `
 const Title = styled(Card.Title)`
     color: ${styles.colors.darkGreen};
@@ -32,6 +28,7 @@ const Text = styled(Card.Text)`
     color: ${styles.colors.darkGray};
     font-family: ${styles.fonts.ch};
     line-height: 2rem;
+    margin-bottom: 1rem;
 `
 
 export default function ProductCard({name_ch, name_en, img, des}){
