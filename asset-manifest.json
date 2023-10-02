@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/plantae-ver2/static/css/main.e48e2864.css",
-    "main.js": "/plantae-ver2/static/js/main.bf61ec45.js",
+    "main.js": "/plantae-ver2/static/js/main.a2013fcc.js",
     "static/js/787.28ce0323.chunk.js": "/plantae-ver2/static/js/787.28ce0323.chunk.js",
     "static/media/banner.JPG": "/plantae-ver2/static/media/banner.15bc7a168cf952250fb6.JPG",
     "static/media/product2.JPG": "/plantae-ver2/static/media/product2.b6c90f8a39bb2b70b9fc.JPG",
@@ -22,11 +22,11 @@
     "static/media/facebook.png": "/plantae-ver2/static/media/facebook.ec5c730cfe163b1e5ed8.png",
     "index.html": "/plantae-ver2/index.html",
     "main.e48e2864.css.map": "/plantae-ver2/static/css/main.e48e2864.css.map",
-    "main.bf61ec45.js.map": "/plantae-ver2/static/js/main.bf61ec45.js.map",
+    "main.a2013fcc.js.map": "/plantae-ver2/static/js/main.a2013fcc.js.map",
     "787.28ce0323.chunk.js.map": "/plantae-ver2/static/js/787.28ce0323.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e48e2864.css",
-    "static/js/main.bf61ec45.js"
+    "static/js/main.a2013fcc.js"
   ]
 }
